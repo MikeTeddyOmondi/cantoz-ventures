@@ -1,0 +1,25 @@
+{
+	"name": "cantoz-ventures",
+	"version": "1.0.0",
+	"description": "An event organising entity portfolio website",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon -L index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"dotenv": "^16.0.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.3",
+		"express-ejs-layouts": "^2.5.1",
+		"morgan": "^1.10.0",
+		"serve-favicon": "^2.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
